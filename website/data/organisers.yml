@@ -1,0 +1,32 @@
+# Organisers are grouped by affiliation.
+# 'github' is used to fetch the avatar automatically (leave blank to hide avatar).
+# 'website' is optional.
+groups:
+  - name: "scverse"
+    members:
+      - name: "Jose Nimo"
+        affiliation: "scverse / Max Delbrück Center"
+        github: "josenimo"
+        website: ""
+
+  - name: "Max Delbruck Center"
+    members:
+      - name: "Melissa Klingeberg"
+        affiliation: "Max Delbrück Center"
+        github: ""
+        website: ""
+      - name: "Anna Sophie Welter"
+        affiliation: "Max Delbrück Center"
+        github: ""
+        website: ""
+      - name: "Florian Mutschler"
+        affiliation: "Max Delbrück Center"
+        github: ""
+        website: ""
+
+  - name: "Technische Universität München"
+    members:
+      - name: "Sonja Stockhaus"
+        affiliation: "Technische Universität München"
+        github: "Sonja-Stockhaus"
+        website: ""

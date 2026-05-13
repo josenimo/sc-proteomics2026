@@ -1,0 +1,58 @@
+baseURL = "https://scverse.github.io/sc-proteomics2026/"
+languageCode = "en-us"
+title = "scverse x single-cell proteomics"
+
+# ─── Event identity ──────────────────────────────────────────────────────────
+[params]
+  eventName     = "scverse x single-cell proteomics 2026"
+  eventSeries   = "Unifying Omics Hackathon Series"
+  eventTagline  = "Bridging scverse and single cell proteomics community."
+  eventDates    = "September 4 - 5, 2026"
+  eventStart    = "2026-09-04"  # ISO date — used for calendar links
+  eventEnd      = "2026-09-05"
+  eventLocation = "Vienna, Austria"
+  venueName     = "IMP, Vienna Biocenter"
+  applicationDeadline = "July 1st, 2026 (AOE)"
+  acceptanceNotification = "July 15th, 2026 (AOE)"
+  venueMapURL   = "https://maps.app.goo.gl/YBPBS9eL61W3VcMS8"  # Google Maps / OpenStreetMap URL for "Get directions"
+  heroImage     = ""
+  heroVideo     = ""                        # Set to a .mp4 path to use video instead of image
+  heroSwirl     = "/img/hero/newswirl.png"  # Decorative swirl overlay in the hero
+
+  calendarURL   = "" # Google Calendar / .ics URL
+  githubRepo    = "https://github.com/scverse/sc-proteomics2026"
+  contactEmail  = "jose.nimo@scverse.org"
+  zulipChannel  = "https://scverse.zulipchat.com/#narrow/channel/600037-2026-09-Vienna-SCP-Hackathon"
+  linkedinURL   = "https://www.linkedin.com/company/scverse/"
+
+  # Primary call-to-action button in the hero
+  [params.cta]
+    label = "Apply to join"
+    url   = "https://luma.com/pwzuldwr"
+
+# ─── Per-event colour palette ────────────────────────────────────────────────
+# Only change these — everything else (grey scale, typography) is locked to the
+# scverse brand identity and should not be modified.
+  [params.theme]
+  # Single-cell / pink:  
+    accent        = "#de367b" 
+    accentDark    = "#a01d55" 
+    gradientStart = "#262fb5" 
+    gradientEnd   = "#de367b" 
+    highlight     = "#969dea"
+  
+
+#defaults  
+# accent        = "#6aaa2a"   # buttons, links, active states
+# accentDark    = "#2d5a1b"   # hover states
+# gradientStart = "#5abfb7"   # hero title gradient — left/top
+# gradientEnd   = "#c8e832"   # hero title gradient — right/bottom
+# highlight     = "#b8d400"   # badges, chips, accent lines
+
+# ─── Suggested palette presets (copy one block to [params.theme] above) ──────
+# Cell Painting / orange: accent="#e5864b" accentDark="#b85d2a" gradientStart="#262fb5" gradientEnd="#e5864b" highlight="#fbb822"
+# Spatial / teal:      accent="#40a9ff" accentDark="#0080dd" gradientStart="#262fb5" gradientEnd="#40a9ff" highlight="#6cf1a1"
+# Single-cell / pink:  accent="#de367b" accentDark="#a01d55" gradientStart="#262fb5" gradientEnd="#de367b" highlight="#969dea"
+
+[markup.goldmark.renderer]
+  unsafe = true

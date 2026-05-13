@@ -1,0 +1,31 @@
+{{ with hugo.Data.workstreams }}
+<section id="workstreams" class="section section--alt">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-label">Hackathon tracks</p>
+      <h2 class="section-title">Workstreams</h2>
+    </div>
+
+    <p class="section-intro">Closer to the event, we will publish a set of actionable tasks grouped into these three workstreams. You will later decide which task fits your expertise and interests best. Participants will group around these tasks and then work as a team toward a concrete, shippable outcome over the two days. Workstreams are topically distinct but not siloed: cross-workstream collaboration is encouraged wherever tools or data overlap.</p>
+
+    <div class="workstreams-grid">
+      {{ range . }}
+        <article class="workstream-card">
+          <h3 class="workstream-card__title">{{ .title }}</h3>
+          <p class="workstream-card__desc">{{ .description }}</p>
+          {{ with .lead }}
+            <div class="workstream-card__lead">
+              <img
+                src="https://github.com/{{ . }}.png?size=48"
+                alt="{{ . }}"
+                loading="lazy"
+              />
+              <span>@{{ . }}</span>
+            </div>
+          {{ end }}
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
