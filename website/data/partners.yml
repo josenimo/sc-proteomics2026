@@ -1,0 +1,12 @@
+# Collaborating organisations — shown as a logo strip with optional blurb.
+# 'logo' path is relative to static/ (e.g. /img/partners/org.svg).
+# Remove all entries to hide the section.
+- name: "Vienna BioCenter"
+  logo: "/img/partners/VBC_LOGO_rgb.png"
+  url: "https://www.viennabiocenter.org/"
+  blurb: ""
+
+- name: "Max Delbrück Center"
+  logo: "/img/partners/MDC_logo_V1_RGB-blau.png"
+  url: "https://www.mdc-berlin.de/"
+  blurb: ""
