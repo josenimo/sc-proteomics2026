@@ -1,4 +1,4 @@
-baseURL = "https://josenimo.github.io/morphology2026/"
+baseURL = "https://scverse.github.io/sc-proteomics2026/"
 languageCode = "en-us"
 title = "scverse x single-cell proteomics"
 
@@ -6,7 +6,7 @@ title = "scverse x single-cell proteomics"
 [params]
   eventName     = "scverse x single-cell proteomics 2026"
   eventSeries   = "Unifying Omics Hackathon Series"
-  eventTagline  = "Bridging scverse and Cell Painting communities at the intersection of image-based profiling, phenomics, and single-cell perturbation analysis."
+  eventTagline  = "Bridging scverse and single cell proteomics community."
   eventDates    = "September 4 - 5, 2026"
   eventStart    = "2026-09-04"  # ISO date — used for calendar links
   eventEnd      = "2026-09-05"
@@ -20,7 +20,7 @@ title = "scverse x single-cell proteomics"
   heroSwirl     = "/img/hero/newswirl.png"  # Decorative swirl overlay in the hero
 
   calendarURL   = "" # Google Calendar / .ics URL
-  githubRepo    = "https://github.com/josenimo/morphology2026" #### <----- NEED THIS
+  githubRepo    = "https://github.com/scverse/sc-proteomics2026"
   contactEmail  = "jose.nimo@scverse.org"
   zulipChannel  = "https://scverse.zulipchat.com/#narrow/channel/600037-2026-09-Vienna-SCP-Hackathon"
   linkedinURL   = "https://www.linkedin.com/company/scverse/"
