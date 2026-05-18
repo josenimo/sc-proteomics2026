@@ -13,15 +13,15 @@ groups:
     members:
       - name: "Melissa Klingeberg"
         affiliation: "Max Delbrück Center"
-        github: ""
+        github: "melissaklingeberg"
         website: ""
       - name: "Anna Sophie Welter"
         affiliation: "Max Delbrück Center"
-        github: ""
+        github: "annaw995"
         website: ""
       - name: "Florian Mutschler"
         affiliation: "Max Delbrück Center"
-        github: ""
+        github: "FlorianMutschler"
         website: ""
 
   - name: "Technische Universität München"
