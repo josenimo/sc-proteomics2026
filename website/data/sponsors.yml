@@ -1,1 +1,8 @@
-- name: "Looking for Sponsors"
+- name: "Thermo Fisher Scientific"
+  logo: "/img/sponsors/ThermoFisherScientific.jpg"
+  url: "https://www.thermofisher.com/"
+
+- name: "Aptila Biotech"
+  logo: "/img/sponsors/aptilac7.svg"
+  url: "https://aptila.bio/"
+
